@@ -1,6 +1,20 @@
+# Como o Projeto Foi Criado
+
+1. Instalação via [Vite](https://vitejs.dev/):
+```
+yarn create vite estudo-react-basico --template react-ts
+```
+
+> Vite é uma palavra francesa para "rápido", pronunciada `/vit/`.
+
 # Instruções
 
-Executar `yarn dev` para rodar o projeto.
+- Executar `yarn` para instalar as dependências.
+- Executar `yarn dev` para rodar o projeto.
+```
+yarn
+yarn dev
+```
 
 # Anotações de Estudo de React
 ###### Vídeo: [COMEÇANDO NO REACT.JS EM 2022](https://www.youtube.com/watch?v=pDbcC-xSat4)
@@ -35,15 +49,27 @@ Executar `yarn dev` para rodar o projeto.
 1. CSS
   - CSS-in-JS
     - [Styled components](https://styled-components.com/)
+    - [Stitches](https://stitches.dev/)
+  - Tools
+    - [Radix]()
 
 2. Data Fetching
-
+  - SWR
+  - React Query
+  - GraphQL
+    - uRQL
+    - Apollo Client
+    - Relay
 
 3. State Management
-
+  - Keep it simple (Context + Reducer)
+  - Zustand
 
 4. Testing
-
+  - Testing Library
+  - Cypress
 
 5. Frameworks
+  - Next.js
+  - Remix
 
